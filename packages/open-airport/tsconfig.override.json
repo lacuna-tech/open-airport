@@ -1,0 +1,10 @@
+// This base config bypasses CRA option limitations.
+// If added to the main config, CRA will automatically remove and format "illegal" options.
+{
+  "compilerOptions": {
+    "paths": {
+      "@lacuna/ui-common": ["../../ui-common/src"],
+      "@lacuna/agency-config": ["../../agency-config/src"]
+    }
+  }
+}

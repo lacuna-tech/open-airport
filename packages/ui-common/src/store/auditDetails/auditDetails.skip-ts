@@ -1,0 +1,109 @@
+/**
+ * Domain for loading / deleting AuditDetails reports.
+ */
+import omit from 'lodash/omit'
+import { useSelector } from 'react-redux'
+import { UUID } from 'mds-js'
+
+import { createReducer, ThunkedPromise, ReducerMap, LoadState } from '../util/store_utils'
+import { AuditDetails, fetchAuditDetails, deleteAuditTrip } from '../service/mds-audit'
+
+/**
+ * Reducer state is a map of `{ auditTripId: AuditDetailsCacheItem }`, one of:
+ * - `AuditDetails` = loaded details record
+ * - `Error` = error from mdsFetch() encountered on last load.
+ * - `LoadState.loading` = Marker that we're currently loading the record.
+ * - `undefined` = trip has never been loaded (or was explicitly deleted in this session)
+ */
+export type AuditDetailsCacheItem = AuditDetails | Error | LoadState
+export interface AuditDetailsState {
+  // Key is auditTripId (UUID).
+  // Value is LoadState enum value, AuditDetails record, JS Error from `mdsFetch()` or `null`
+  [auditTripId: string]: AuditDetailsCacheItem
+}
+
+export interface ReducerState {
+  auditDetails: AuditDetailsState
+}
+
+const handlers: ReducerMap<AuditDetailsState> = {}
+function getInitialState() {
+  return {}
+}
+export const reducerMap: ReducerMap<any> = {
+  auditDetails: createReducer<AuditDetailsState>(handlers, getInitialState())
+}
+
+namespace actions {
+  /**
+   * Load audit details record.  
+   * If record is already loading / loaded, returns value from the store.
+   * @param auditTripId  UUID for record to delete.
+   */
+  export function loadAuditDetails(auditTripId: UUID): ThunkedPromise<AuditDetailsCacheItem> {
+    return async (dispatch, getState) => {
+      // If it's already loaded, loading or errored, just return it!
+      const auditDetails = selectors.auditDetail(getState(), auditTripId)
+      if (auditDetails !== undefined) return auditDetails
+
+      dispatch({ type: 'updateAuditDetails', payload: { [auditTripId]: LoadState.loading } })
+      try {
+        const details = await fetchAuditDetails(auditTripId, 'authToken')
+        dispatch({ type: 'updateAuditDetails', payload: { [auditTripId]: details } })
+        return details
+      } catch (error) {
+        dispatch({ type: 'updateAuditDetails', payload: { [auditTripId]: error } })
+        // re-throw the error so the caller has to deal with it
+        throw error
+      }
+    }
+  }
+  handlers.updateAuditDetails = (state, { payload }) => {
+    return {
+      ...state,
+      ...payload
+    }
+  }
+
+  /**
+   * Delete audit details record.
+   * @param auditTripId UUID for record to delete.
+   */
+  export function deleteAudit(auditTripId: UUID): ThunkedPromise<void> {
+    return async dispatch => {
+      // Remove from UI first
+      dispatch({ type: 'deleteAudit', payload: auditTripId })
+      // Just call delete, we don't do anything with the response
+      deleteAuditTrip(auditTripId, 'authToken')
+    }
+  }
+  handlers.deleteAudit = (state, { payload: auditTripId }) => {
+    return omit(state, [auditTripId])
+  }
+}
+export { actions }
+
+namespace selectors {
+  /**
+   * Return the entire cache of auditDetails records.
+   */
+  export function auditDetails(state: any): AuditDetailsState {
+    return state.auditDetails
+  }
+  export function useAuditDetails(): AuditDetailsState {
+    return useSelector(auditDetails)
+  }
+  /**
+   * Return a single auditDetail record.
+   */
+  export function auditDetail(state: any, auditTripId: UUID): AuditDetailsCacheItem {
+    return state.auditDetails[auditTripId]
+  }
+  export function useAuditDetail(auditTripId: UUID): AuditDetailsCacheItem {
+    return useSelector(auditDetails)[auditTripId]
+  }
+}
+export { selectors }
+
+// Default export is all exports as a single map.
+export default { ...module.exports }

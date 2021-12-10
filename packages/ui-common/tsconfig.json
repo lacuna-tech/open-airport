@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["types/*", "*"]
+    },
+    "importHelpers": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "listEmittedFiles": true,
+    "sourceMap": true,
+    "declaration": true,
+    "composite": true,
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false,
+    "module": "esnext",
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "target": "es6",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": false,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "noEmit": false,
+    "allowSyntheticDefaultImports": true,
+    "downlevelIteration": true // Support for iterating by spreading any generator function results.
+  },
+  "include": ["src/**/*", "storybook/**/*", "src/**/*.json", "__generated__/**/*"],
+  "exclude": ["node_modules", "dist", "src/**/*.test.tsx", "src/**/*.test.ts"]
+}

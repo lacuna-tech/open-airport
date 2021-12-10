@@ -1,0 +1,29 @@
+diff --git a/node_modules/@gitgraph/core/lib/gitgraph.js b/node_modules/@gitgraph/core/lib/gitgraph.js
+index 7f4261d..4fd0645 100644
+--- a/node_modules/@gitgraph/core/lib/gitgraph.js
++++ b/node_modules/@gitgraph/core/lib/gitgraph.js
+@@ -219,8 +219,7 @@ class GitgraphCore {
+             default:
+                 return commit.setPosition({
+                     x: this.initCommitOffsetX + this.template.branch.spacing * order,
+-                    y: this.initCommitOffsetY +
+-                        this.template.commit.spacing * (maxRow - row),
++                    y: this.commits.slice(row, maxRow).reduce((runningY, commit) => runningY + commit.style.spacing, 0)
+                 });
+             case orientation_1.Orientation.VerticalReverse:
+                 return commit.setPosition({
+diff --git a/node_modules/@gitgraph/core/src/gitgraph.ts b/node_modules/@gitgraph/core/src/gitgraph.ts
+index b9a9ae9..652a532 100644
+--- a/node_modules/@gitgraph/core/src/gitgraph.ts
++++ b/node_modules/@gitgraph/core/src/gitgraph.ts
+@@ -375,9 +375,7 @@ class GitgraphCore<TNode = SVGElement> {
+       default:
+         return commit.setPosition({
+           x: this.initCommitOffsetX + this.template.branch.spacing * order,
+-          y:
+-            this.initCommitOffsetY +
+-            this.template.commit.spacing * (maxRow - row),
++          y: this.commits.slice(row, maxRow).reduce((runningY, commit) => runningY + commit.style.spacing, 0)
+         });
+ 
+       case Orientation.VerticalReverse:

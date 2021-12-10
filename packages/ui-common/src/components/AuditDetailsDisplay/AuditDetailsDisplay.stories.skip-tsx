@@ -1,0 +1,50 @@
+/**
+ * Storybook test for component which loads redux data via hooks/actions.
+ */
+import React from 'react'
+import { storiesOf } from '@storybook/react'
+import { LoadState } from '../src/util/store_utils'
+import { createStoryProvider, stubStoryActions } from '../src/util/storybook/store'
+
+// Component we're testing
+import AuditDetailsDisplay from '../src/components/AuditDetailsDisplay/AuditDetailsDisplay'
+// reducer and actions used in component we're testing
+import { reducerMap, actions } from '../src/store/auditDetails'
+
+// Stub <StoryProvider> using redux domain
+const StoryProvider = createStoryProvider(reducerMap)
+// Stub action creators used in component `useEffect` hooks.
+stubStoryActions(actions, 'loadAuditDetails')
+
+// Import auditDetails fixture for use in store
+const bird_iuaam = require('../src/service/mds-audit-fixtures/auditDetails/bird_iuaam.json')
+// Get key for that record for creating stores manually
+const bird_iuaam_key: string = Object.keys(bird_iuaam)[0]
+// Various store states
+const emptyStore = { auditDetails: {} }
+const loadingStore = { auditDetails: { [bird_iuaam_key]: LoadState.loading } }
+const errorStore = { auditDetails: { [bird_iuaam_key]: new Error('Something went wrong...') } }
+const detailsStore = { auditDetails: bird_iuaam }
+
+storiesOf('Redux Tests|AuditDetailsDisplay', module)
+  // in each story, pass store state to `<StoryProvider>` as below:
+  .add('Store value: undefined', () => (
+    <StoryProvider state={emptyStore}>
+      <AuditDetailsDisplay auditTripId={bird_iuaam_key} />
+    </StoryProvider>
+  ))
+  .add('Store value: loading flag', () => (
+    <StoryProvider state={loadingStore}>
+      <AuditDetailsDisplay auditTripId={bird_iuaam_key} />
+    </StoryProvider>
+  ))
+  .add('Store value: Error object', () => (
+    <StoryProvider state={errorStore}>
+      <AuditDetailsDisplay auditTripId={bird_iuaam_key} />
+    </StoryProvider>
+  ))
+  .add('Store value: valid details object', () => (
+    <StoryProvider state={detailsStore}>
+      <AuditDetailsDisplay auditTripId={bird_iuaam_key} />
+    </StoryProvider>
+  ))

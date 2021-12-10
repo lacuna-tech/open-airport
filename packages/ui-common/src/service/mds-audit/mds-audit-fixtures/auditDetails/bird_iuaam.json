@@ -1,0 +1,5617 @@
+{
+  "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17": {
+    "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+    "audit_vehicle_id": "444fb7c0-5fc2-11e9-85de-673c243a6a79",
+    "audit_device_id": "444fb7c0-5fc2-11e9-85de-673c243a6a79",
+    "audit_subject_id": "demo1@mdscompliance.app",
+    "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+    "provider_name": "Bird",
+    "provider_vehicle_id": "IUAAM",
+    "provider_device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+    "recorded": 1555372494141,
+    "deleted": null,
+    "timestamp": 1555372493650,
+    "events": [
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "dd477320-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_type": "start",
+        "audit_issue_code": null,
+        "note": "",
+        "timestamp": 1555372493650,
+        "charge": null,
+        "recorded": 1555372494144,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0587134,
+          "lng": -118.2373277,
+          "speed": null,
+          "heading": null,
+          "accuracy": 4.087,
+          "altitude": 74.1407
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "bcac1aa6-23da-1793-3363-0a92ebc23166",
+        "audit_event_type": "trip_start",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372519462,
+        "charge": null,
+        "recorded": 1555372520121,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0587088,
+          "lng": -118.2373644,
+          "speed": 70.5905,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 7.286
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "adeeb003-a700-958e-9d16-e4ec4df09abe",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372524000,
+        "charge": null,
+        "recorded": 1555372524878,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0587087,
+          "lng": -118.2373648,
+          "speed": 69.9791,
+          "heading": 227,
+          "accuracy": 0.17,
+          "altitude": 5.999
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "b5774335-77a4-0134-75cf-33f90eb58315",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372529000,
+        "charge": null,
+        "recorded": 1555372529959,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.058684,
+          "lng": -118.2373836,
+          "speed": 68.5558,
+          "heading": 198,
+          "accuracy": 2.18,
+          "altitude": 4.751
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "6bdc8891-32b8-197b-e13c-630414e154a0",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372534000,
+        "charge": null,
+        "recorded": 1555372534879,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0585284,
+          "lng": -118.2374896,
+          "speed": 67.675,
+          "heading": 210,
+          "accuracy": 3.96,
+          "altitude": 6.022
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "f0b672b3-a7fb-aeeb-25eb-528f249aa586",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372539000,
+        "charge": null,
+        "recorded": 1555372539911,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0583861,
+          "lng": -118.2376081,
+          "speed": 67.6777,
+          "heading": 210,
+          "accuracy": 3.1,
+          "altitude": 8.246
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "98878d98-55e0-b5ac-7e74-df8b753fec1c",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372544000,
+        "charge": null,
+        "recorded": 1555372544887,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0583061,
+          "lng": -118.2377025,
+          "speed": 63.0668,
+          "heading": 235,
+          "accuracy": 0.88,
+          "altitude": 5.475
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "5f081449-8aec-ca0d-466d-b004899ce7fb",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372549000,
+        "charge": null,
+        "recorded": 1555372549897,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0583206,
+          "lng": -118.2377293,
+          "speed": 60.7201,
+          "heading": 92,
+          "accuracy": 2.96,
+          "altitude": 3.772
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "efa80a36-5e35-fecc-e540-db64abbe0b5f",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372554000,
+        "charge": null,
+        "recorded": 1555372554902,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0583498,
+          "lng": -118.2376166,
+          "speed": 57.2928,
+          "heading": 60,
+          "accuracy": 2.52,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "1efa15a6-d3c6-5fb3-8655-283365cf5398",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372559000,
+        "charge": null,
+        "recorded": 1555372559887,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0583456,
+          "lng": -118.2374988,
+          "speed": 55.8922,
+          "heading": 123,
+          "accuracy": 3.23,
+          "altitude": 3.047
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "5c0d0b70-b3cd-fc86-81ff-87f0f8469917",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372564000,
+        "charge": null,
+        "recorded": 1555372564879,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0582857,
+          "lng": -118.237367,
+          "speed": 54.1848,
+          "heading": 108,
+          "accuracy": 2.71,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "55fcc2c3-9b6f-f02d-5374-04e668275e11",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372569000,
+        "charge": null,
+        "recorded": 1555372569906,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0582622,
+          "lng": -118.2372737,
+          "speed": 55.3907,
+          "heading": 103,
+          "accuracy": 1.56,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "1c94bf24-37f3-c459-ba69-df77fd1fbc87",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372574000,
+        "charge": null,
+        "recorded": 1555372574862,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0582398,
+          "lng": -118.2372209,
+          "speed": 53.1958,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "06f99bcf-039b-b6a1-6ad1-6dfff00a00df",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372579000,
+        "charge": null,
+        "recorded": 1555372579907,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0582302,
+          "lng": -118.2372029,
+          "speed": 52.5208,
+          "heading": 103,
+          "accuracy": 0.33,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "8397b6dc-8bed-ee9c-81f7-995d596c424c",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372584000,
+        "charge": null,
+        "recorded": 1555372584998,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.058219,
+          "lng": -118.2371948,
+          "speed": 52.1225,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "d0e2d3ba-0cdc-cc90-2ffa-0b0387004777",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372589000,
+        "charge": null,
+        "recorded": 1555372589942,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0582103,
+          "lng": -118.2371873,
+          "speed": 50.3369,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "2dba4e92-e422-e43d-9512-e53cd9409ba5",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372594000,
+        "charge": null,
+        "recorded": 1555372594905,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0582043,
+          "lng": -118.2371868,
+          "speed": 50.2468,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "6bd3aff8-f747-4202-50cc-2a2ca1b45bbc",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372599000,
+        "charge": null,
+        "recorded": 1555372599920,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0582029,
+          "lng": -118.2371866,
+          "speed": 50.0356,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "ed9b7e4e-2ef6-873c-e763-c560fc3a7d0c",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372604000,
+        "charge": null,
+        "recorded": 1555372604952,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.058202,
+          "lng": -118.2371861,
+          "speed": 50.1202,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "79787dce-e7a1-3371-4554-55bb8a21332e",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372609000,
+        "charge": null,
+        "recorded": 1555372609921,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0581797,
+          "lng": -118.2371783,
+          "speed": 49.722,
+          "heading": 170,
+          "accuracy": 2.75,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "ac459b96-d05d-c543-03c1-e97eeb56000f",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372614000,
+        "charge": null,
+        "recorded": 1555372614967,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0579876,
+          "lng": -118.2371999,
+          "speed": 48.9832,
+          "heading": 186,
+          "accuracy": 4.79,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "79b78afa-8020-3504-ddb1-83ed350d149a",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372619000,
+        "charge": null,
+        "recorded": 1555372619889,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0577083,
+          "lng": -118.2372568,
+          "speed": 48.4069,
+          "heading": 188,
+          "accuracy": 6.27,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "d3f3710f-8f97-07a3-e338-1673c749dd21",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372624000,
+        "charge": null,
+        "recorded": 1555372624881,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0574098,
+          "lng": -118.2373141,
+          "speed": 48.5696,
+          "heading": 189,
+          "accuracy": 6.6,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "dc24dd75-4e50-2e02-7e1b-51f1bcbb775e",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372629000,
+        "charge": null,
+        "recorded": 1555372629903,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0571175,
+          "lng": -118.2373619,
+          "speed": 48.4603,
+          "heading": 190,
+          "accuracy": 6.6,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "32f0e74d-a180-e1c6-bbe3-02a1ee046c40",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372634000,
+        "charge": null,
+        "recorded": 1555372634938,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0568715,
+          "lng": -118.2374269,
+          "speed": 50.3298,
+          "heading": 188,
+          "accuracy": 5.36,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "576bb247-1d42-b27c-4935-895610474bcb",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372639000,
+        "charge": null,
+        "recorded": 1555372639920,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0567814,
+          "lng": -118.2374473,
+          "speed": 49.6538,
+          "heading": 189,
+          "accuracy": 0.91,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "4382b3eb-65fe-0677-0286-b0d5b32ef5a3",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372644000,
+        "charge": null,
+        "recorded": 1555372644941,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0567739,
+          "lng": -118.2374597,
+          "speed": 49.7016,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "7c1c27ef-dc28-3020-6edc-dcdd56bf8bb3",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372649000,
+        "charge": null,
+        "recorded": 1555372649958,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0567726,
+          "lng": -118.2374667,
+          "speed": 50.3397,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "24e64598-28fe-2375-366f-e44d46260554",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372654000,
+        "charge": null,
+        "recorded": 1555372654928,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0567659,
+          "lng": -118.2374674,
+          "speed": 49.2701,
+          "heading": 215,
+          "accuracy": 0.6,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "69bd879c-1624-9b1d-5b6a-11e1dc7d7428",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372659000,
+        "charge": null,
+        "recorded": 1555372659938,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0567594,
+          "lng": -118.2374713,
+          "speed": 50.7117,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "cf09b448-a186-6b77-20cf-32745544f44c",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372664000,
+        "charge": null,
+        "recorded": 1555372664887,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0567593,
+          "lng": -118.2374695,
+          "speed": 51.5118,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "b81fb3b3-7886-a217-d2e8-47ae226bc014",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372669000,
+        "charge": null,
+        "recorded": 1555372669892,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0567528,
+          "lng": -118.2374742,
+          "speed": 50.1924,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "b68ababa-043e-32ea-d6ce-153e2b402aa8",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372674000,
+        "charge": null,
+        "recorded": 1555372674993,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0567543,
+          "lng": -118.2374777,
+          "speed": 50.9068,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "4d583802-f118-f1a7-c180-0ba09f9f28a9",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372679000,
+        "charge": null,
+        "recorded": 1555372679967,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0567578,
+          "lng": -118.2374772,
+          "speed": 50.903,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "a386c133-e521-9fbe-f35e-5cdf39bd2020",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372684000,
+        "charge": null,
+        "recorded": 1555372684929,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.056759,
+          "lng": -118.2374756,
+          "speed": 49.6801,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "8cecdc34-3b13-3408-4750-146017f8813d",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372689000,
+        "charge": null,
+        "recorded": 1555372689947,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0567565,
+          "lng": -118.2374846,
+          "speed": 48.3843,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "15ee0971-580c-7269-df13-13403c62c4b2",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372694000,
+        "charge": null,
+        "recorded": 1555372694972,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0566661,
+          "lng": -118.2375026,
+          "speed": 49.9316,
+          "heading": 189,
+          "accuracy": 3.7,
+          "altitude": 3.147
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "101710ec-4818-cf9c-8de0-5a3826d4e9ef",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372699000,
+        "charge": null,
+        "recorded": 1555372699905,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0564235,
+          "lng": -118.2375491,
+          "speed": 50.7661,
+          "heading": 191,
+          "accuracy": 5.27,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "88aab441-6274-c38a-0559-5ff7a7c6cb1c",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372704000,
+        "charge": null,
+        "recorded": 1555372705019,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0561621,
+          "lng": -118.2375979,
+          "speed": 50.6673,
+          "heading": 197,
+          "accuracy": 5.36,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "4f784d94-723a-fdc5-e03b-6dd4f36a58b0",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372709000,
+        "charge": null,
+        "recorded": 1555372709933,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.055952,
+          "lng": -118.2376583,
+          "speed": 49.2537,
+          "heading": 188,
+          "accuracy": 5.35,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "0dace556-8979-0f2a-0aff-e3fa64072974",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372714000,
+        "charge": null,
+        "recorded": 1555372715000,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0557146,
+          "lng": -118.2377109,
+          "speed": 48.951,
+          "heading": 193,
+          "accuracy": 4.92,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "301577b4-4540-75e0-2742-6ed94f2d56c4",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372719000,
+        "charge": null,
+        "recorded": 1555372719935,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0555606,
+          "lng": -118.2377471,
+          "speed": 50.5253,
+          "heading": 190,
+          "accuracy": 3.39,
+          "altitude": 3.094
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "52078fd6-a455-1f60-5ed9-285ac1dec5a3",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372724000,
+        "charge": null,
+        "recorded": 1555372724944,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0553673,
+          "lng": -118.2377866,
+          "speed": 49.4891,
+          "heading": 188,
+          "accuracy": 4.79,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "919811e0-cee6-8893-08c2-eceedd9b3fcc",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372729000,
+        "charge": null,
+        "recorded": 1555372729969,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0550871,
+          "lng": -118.2378175,
+          "speed": 49.2271,
+          "heading": 190,
+          "accuracy": 6.34,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "ba7a0c6f-0dab-ad22-69b8-f089dfe1fb37",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372734000,
+        "charge": null,
+        "recorded": 1555372734988,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0548189,
+          "lng": -118.2378503,
+          "speed": 51.037,
+          "heading": 188,
+          "accuracy": 5.62,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "3e2e17bc-2cc7-b199-189b-9898101e269e",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372739000,
+        "charge": null,
+        "recorded": 1555372739920,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0546007,
+          "lng": -118.2379174,
+          "speed": 50.7198,
+          "heading": 191,
+          "accuracy": 5.49,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "6b3dc78f-bb49-3515-6e67-c8a77c139c66",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372744000,
+        "charge": null,
+        "recorded": 1555372745303,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0543265,
+          "lng": -118.2379593,
+          "speed": 52.2581,
+          "heading": 187,
+          "accuracy": 6.65,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "c8558e07-ee66-5e82-02dd-74487a726a23",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372749000,
+        "charge": null,
+        "recorded": 1555372749937,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0540192,
+          "lng": -118.2379803,
+          "speed": 54.0884,
+          "heading": 185,
+          "accuracy": 7,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "ae31f830-0385-921b-8824-b951dd065821",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372754000,
+        "charge": null,
+        "recorded": 1555372755022,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0537073,
+          "lng": -118.2380169,
+          "speed": 54.2264,
+          "heading": 186,
+          "accuracy": 6.89,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "aeea6329-1c42-8859-bc3c-6ce1d580dcb7",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372759000,
+        "charge": null,
+        "recorded": 1555372759943,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0533877,
+          "lng": -118.2380416,
+          "speed": 53.2712,
+          "heading": 182,
+          "accuracy": 7.08,
+          "altitude": 4.288
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "90428d03-cee9-6e86-5637-4ac424c8c2e7",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372764000,
+        "charge": null,
+        "recorded": 1555372765348,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0530682,
+          "lng": -118.2380429,
+          "speed": 51.6215,
+          "heading": 177,
+          "accuracy": 6.9,
+          "altitude": 4.288
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "7df6cbb6-74aa-4b99-2794-1843a37ca099",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372769000,
+        "charge": null,
+        "recorded": 1555372770106,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.052761,
+          "lng": -118.238061,
+          "speed": 50.3256,
+          "heading": 184,
+          "accuracy": 6.87,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "250586cf-30da-6078-82ab-2543d5cf4b09",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372774000,
+        "charge": null,
+        "recorded": 1555372775029,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0524546,
+          "lng": -118.238067,
+          "speed": 50.7657,
+          "heading": 173,
+          "accuracy": 6.61,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "41644d70-0e17-33f6-4d08-1a577335d197",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372779000,
+        "charge": null,
+        "recorded": 1555372780038,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0521659,
+          "lng": -118.2380879,
+          "speed": 51.4971,
+          "heading": 188,
+          "accuracy": 6.54,
+          "altitude": 5.36
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "afd56ab2-a0be-3c1d-86b4-ef1c1735ca66",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372784000,
+        "charge": null,
+        "recorded": 1555372784947,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0518862,
+          "lng": -118.2381078,
+          "speed": 54.1498,
+          "heading": 189,
+          "accuracy": 6.04,
+          "altitude": 5.36
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "5cce03ba-7a31-8705-d43d-4a76d3507a73",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372789000,
+        "charge": null,
+        "recorded": 1555372790074,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.051619,
+          "lng": -118.2381125,
+          "speed": 55.7802,
+          "heading": 201,
+          "accuracy": 5.32,
+          "altitude": 5.36
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "797233d0-401c-ee62-7af0-0d1ba79bd644",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372794000,
+        "charge": null,
+        "recorded": 1555372794940,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0514556,
+          "lng": -118.2382034,
+          "speed": 54.5714,
+          "heading": 239,
+          "accuracy": 3.69,
+          "altitude": 3.257
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "07cb3beb-e588-f9ce-8c15-7ef34ecef430",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372799000,
+        "charge": null,
+        "recorded": 1555372799966,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0515077,
+          "lng": -118.2384584,
+          "speed": 53.3704,
+          "heading": 303,
+          "accuracy": 4.44,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "71a771cc-6210-2c1b-72db-3fd637ca5388",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372804000,
+        "charge": null,
+        "recorded": 1555372804967,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0516774,
+          "lng": -118.2386849,
+          "speed": 53.051,
+          "heading": 314,
+          "accuracy": 5.83,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "1b37a483-1d54-46e1-af51-2988076f387c",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372809000,
+        "charge": null,
+        "recorded": 1555372809957,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0518809,
+          "lng": -118.2388998,
+          "speed": 53.4117,
+          "heading": 305,
+          "accuracy": 5.33,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "e7253458-bb4d-f99c-6006-41a6b5222b7a",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372814000,
+        "charge": null,
+        "recorded": 1555372814962,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0519475,
+          "lng": -118.2390372,
+          "speed": 55.1949,
+          "heading": 329,
+          "accuracy": 1.79,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "7c73a80c-dc8a-8727-4498-970fad7fceed",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372819000,
+        "charge": null,
+        "recorded": 1555372819958,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0520982,
+          "lng": -118.2391701,
+          "speed": 53.5162,
+          "heading": 316,
+          "accuracy": 4.46,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "e2b46789-81e1-da3b-2e1b-eadde259eba4",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372824000,
+        "charge": null,
+        "recorded": 1555372824974,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0522255,
+          "lng": -118.2393217,
+          "speed": 52.4365,
+          "heading": 312,
+          "accuracy": 3.89,
+          "altitude": 4.033
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "1e54d612-5db2-e77e-df98-9b28ff25bb36",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372829000,
+        "charge": null,
+        "recorded": 1555372829976,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0523324,
+          "lng": -118.2394535,
+          "speed": 50.1584,
+          "heading": 311,
+          "accuracy": 3.08,
+          "altitude": 3.026
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "285ece39-92c9-fe47-7cec-c8aeff4dd39d",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372834000,
+        "charge": null,
+        "recorded": 1555372834962,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0524863,
+          "lng": -118.2396173,
+          "speed": 52.05,
+          "heading": 315,
+          "accuracy": 4.99,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "eb5f9686-14ed-4aa0-5ee0-577fee49bccb",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372839000,
+        "charge": null,
+        "recorded": 1555372839977,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.052679,
+          "lng": -118.2398367,
+          "speed": 52.8496,
+          "heading": 322,
+          "accuracy": 5.54,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "748fb235-97fd-c6e9-7dac-4af1024257fe",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372844000,
+        "charge": null,
+        "recorded": 1555372844956,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0528237,
+          "lng": -118.2400296,
+          "speed": 54.0496,
+          "heading": 334,
+          "accuracy": 4.02,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "8fa5871b-fd69-b0b2-c942-afe15b067f5e",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372849000,
+        "charge": null,
+        "recorded": 1555372849981,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0529308,
+          "lng": -118.240159,
+          "speed": 53.634,
+          "heading": 320,
+          "accuracy": 3.49,
+          "altitude": 3.122
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "9a2d2c99-4889-69ae-7bdc-bdeb5b73c0b3",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372854000,
+        "charge": null,
+        "recorded": 1555372855001,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.053044,
+          "lng": -118.2402361,
+          "speed": 53.913,
+          "heading": 325,
+          "accuracy": 1.81,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "0169a12d-7dfb-f86e-1c4f-f06a86193937",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372859000,
+        "charge": null,
+        "recorded": 1555372859993,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0531419,
+          "lng": -118.2403276,
+          "speed": 54.781,
+          "heading": 314,
+          "accuracy": 3.18,
+          "altitude": 3.049
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "c86a1a54-1b43-fedf-f5db-ce9830db2620",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372864000,
+        "charge": null,
+        "recorded": 1555372865031,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0531882,
+          "lng": -118.2404127,
+          "speed": 56.7156,
+          "heading": 305,
+          "accuracy": 1.41,
+          "altitude": 5.599
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "d8e22092-d4d4-7ebd-1fce-d21f298c09f2",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372869000,
+        "charge": null,
+        "recorded": 1555372869988,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0532362,
+          "lng": -118.2404607,
+          "speed": 57.6389,
+          "heading": 341,
+          "accuracy": 1.2,
+          "altitude": 6.537
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "5e1567a5-3df2-fb9e-f356-24450d7dde45",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372874000,
+        "charge": null,
+        "recorded": 1555372875017,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0533118,
+          "lng": -118.2405159,
+          "speed": 59.0751,
+          "heading": 315,
+          "accuracy": 2.58,
+          "altitude": 7.446
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "cf3ac05b-7412-3295-b57e-736b055ffda3",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372879000,
+        "charge": null,
+        "recorded": 1555372879979,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0533865,
+          "lng": -118.2406372,
+          "speed": 61.407,
+          "heading": 276,
+          "accuracy": 1.2,
+          "altitude": 5.563
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "7dec4a8d-6f57-3fdd-1ff8-af3117ccea4d",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372884000,
+        "charge": null,
+        "recorded": 1555372884994,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0534013,
+          "lng": -118.2407169,
+          "speed": 61.7383,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3.29
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "a730cd3f-b08e-c4a1-bd7c-bb5c8c5360cf",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372889000,
+        "charge": null,
+        "recorded": 1555372890013,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.05341,
+          "lng": -118.2407345,
+          "speed": 64.6681,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "764aeca2-890e-ab60-598c-4e23d321cb70",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372894000,
+        "charge": null,
+        "recorded": 1555372894975,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0534091,
+          "lng": -118.2407398,
+          "speed": 62.7206,
+          "heading": 226,
+          "accuracy": 2.01,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "612675d1-59ba-433b-8cae-96f833aeb2ac",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372899000,
+        "charge": null,
+        "recorded": 1555372899995,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0533131,
+          "lng": -118.2408467,
+          "speed": 62.4526,
+          "heading": 218,
+          "accuracy": 2.74,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "f54c16a4-81f7-930d-57f7-872af19c0b11",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372904000,
+        "charge": null,
+        "recorded": 1555372904993,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0532417,
+          "lng": -118.2409103,
+          "speed": 64.7546,
+          "heading": 234,
+          "accuracy": 1.84,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "b74c7685-f34e-166d-8cab-c94c063bc25b",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372909000,
+        "charge": null,
+        "recorded": 1555372910027,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0532211,
+          "lng": -118.2409374,
+          "speed": 67.4614,
+          "heading": 217,
+          "accuracy": 0.34,
+          "altitude": 3.16
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "b162c6f7-b735-1496-4a63-171ea5817017",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372914000,
+        "charge": null,
+        "recorded": 1555372915011,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0532316,
+          "lng": -118.2409348,
+          "speed": 68.7779,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 3.843
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "713a1163-dcb8-f538-d29b-ecf19d5922e7",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372919000,
+        "charge": null,
+        "recorded": 1555372920030,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0532408,
+          "lng": -118.2409405,
+          "speed": 69.702,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 4.727
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "5799ff45-1c00-c34b-6b5a-ec169ff0658c",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372924000,
+        "charge": null,
+        "recorded": 1555372924994,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0532444,
+          "lng": -118.2409506,
+          "speed": 70.9324,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 5.7
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "ba76a80a-8feb-7d8c-f961-293fe890991e",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372929000,
+        "charge": null,
+        "recorded": 1555372929973,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.053247,
+          "lng": -118.2409555,
+          "speed": 70.7347,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 5.971
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "bed9f342-1500-c4e6-fcb1-4102767f3396",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372934000,
+        "charge": null,
+        "recorded": 1555372935020,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0532479,
+          "lng": -118.2409564,
+          "speed": 70.8647,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 5.983
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "3933b395-73d1-22f1-e6dc-50b291214ba7",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372939000,
+        "charge": null,
+        "recorded": 1555372940041,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0533167,
+          "lng": -118.2410034,
+          "speed": 71.5919,
+          "heading": 309,
+          "accuracy": 3.07,
+          "altitude": 3.968
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "386862a1-eeec-8ee6-a7b3-3b9433e77810",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372944000,
+        "charge": null,
+        "recorded": 1555372944980,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0532669,
+          "lng": -118.2412026,
+          "speed": 60.1808,
+          "heading": 231,
+          "accuracy": 5.21,
+          "altitude": 6.432
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "af17e722-f900-8b18-b9ae-7635dff91112",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372949000,
+        "charge": null,
+        "recorded": 1555372949977,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0530214,
+          "lng": -118.2413729,
+          "speed": 60.4554,
+          "heading": 214,
+          "accuracy": 6.29,
+          "altitude": 4.288
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "65c92adf-292e-2ddc-6f3a-a29b96ee835f",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372954000,
+        "charge": null,
+        "recorded": 1555372955006,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0527778,
+          "lng": -118.2415807,
+          "speed": 58.0011,
+          "heading": 212,
+          "accuracy": 6.73,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "65985571-7172-5181-db62-1ed70594648d",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372959000,
+        "charge": null,
+        "recorded": 1555372959974,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0525218,
+          "lng": -118.2417942,
+          "speed": 55.2987,
+          "heading": 213,
+          "accuracy": 6.63,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "7872212f-c326-455f-a800-e6c921c209ea",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372964000,
+        "charge": null,
+        "recorded": 1555372965035,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0522616,
+          "lng": -118.241977,
+          "speed": 54.2629,
+          "heading": 212,
+          "accuracy": 6.64,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "68d8c65a-f702-ffb4-2af0-aed18a6901a5",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372969000,
+        "charge": null,
+        "recorded": 1555372970013,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.052022,
+          "lng": -118.2421376,
+          "speed": 55.167,
+          "heading": 210,
+          "accuracy": 5.45,
+          "altitude": 3.216
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "029a5e17-1381-5449-9394-9bf576a326b6",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372974000,
+        "charge": null,
+        "recorded": 1555372975018,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0519332,
+          "lng": -118.2422731,
+          "speed": 52.291,
+          "heading": 246,
+          "accuracy": 2.41,
+          "altitude": 3
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "891344b0-ea69-7362-62cd-0100b3ff6f03",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372979000,
+        "charge": null,
+        "recorded": 1555372980023,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0518164,
+          "lng": -118.2423848,
+          "speed": 49.9736,
+          "heading": 219,
+          "accuracy": 2.6,
+          "altitude": 3.707
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "22bd18ba-7c73-6a04-04f6-4c0e4f4d5660",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372984000,
+        "charge": null,
+        "recorded": 1555372984998,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.051758,
+          "lng": -118.24246,
+          "speed": 49.147,
+          "heading": 230,
+          "accuracy": 0.62,
+          "altitude": 3.48
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "44a0d124-607a-b0b6-5064-b2afd4ce2ccc",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372989000,
+        "charge": null,
+        "recorded": 1555372990012,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0517582,
+          "lng": -118.2424713,
+          "speed": 50.9682,
+          "heading": 230,
+          "accuracy": 0.22,
+          "altitude": 3.48
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "50176f08-2983-afa8-228c-6e2e20dee3c1",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372994000,
+        "charge": null,
+        "recorded": 1555372995027,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0517578,
+          "lng": -118.2424738,
+          "speed": 51.8724,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 4.627
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "642528be-b805-d0d0-350a-721007f0e32f",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555372999000,
+        "charge": null,
+        "recorded": 1555372999996,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0517489,
+          "lng": -118.2424821,
+          "speed": 51.3104,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 4.775
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "9821acca-0d3c-f6e6-416f-41ffbd126cc6",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555373004000,
+        "charge": null,
+        "recorded": 1555373005013,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0517329,
+          "lng": -118.2424829,
+          "speed": 51.815,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 5.344
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "07b11414-d8c0-6b87-295c-c5551391b2b3",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555373009000,
+        "charge": null,
+        "recorded": 1555373010017,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0517345,
+          "lng": -118.2424822,
+          "speed": 52.9126,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 5.075
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "255e78b9-fec8-d76d-64c2-780a5a87c55d",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555373014000,
+        "charge": null,
+        "recorded": 1555373015047,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0517391,
+          "lng": -118.2424925,
+          "speed": 53.4508,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 4.713
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "d17d5db3-3c29-f8ea-399c-143451bd2fa4",
+        "audit_event_type": "telemetry",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555373019000,
+        "charge": null,
+        "recorded": 1555373020035,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0517389,
+          "lng": -118.2424952,
+          "speed": 53.5627,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 4.629
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "3e052436-de51-9f8a-89d5-fe45f0ad8c25",
+        "audit_event_type": "trip_end",
+        "audit_issue_code": null,
+        "note": null,
+        "timestamp": 1555373027598,
+        "charge": null,
+        "recorded": 1555373025029,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0517385,
+          "lng": -118.2424964,
+          "speed": 53.652,
+          "heading": null,
+          "accuracy": null,
+          "altitude": 4.759
+        }
+      },
+      {
+        "audit_trip_id": "dd46afd0-5fd9-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_id": "1c131540-5fdb-11e9-af9d-9fe2ae7f9c17",
+        "audit_event_type": "end",
+        "audit_issue_code": null,
+        "note": "",
+        "timestamp": 1555373028500,
+        "charge": null,
+        "recorded": 1555373029128,
+        "audit_subject_id": "demo1@mdscompliance.app",
+        "gps": {
+          "lat": 34.0517385,
+          "lng": -118.2424964,
+          "speed": null,
+          "heading": null,
+          "accuracy": 4.759,
+          "altitude": 53.652
+        }
+      }
+    ],
+    "provider": {
+      "device": {
+        "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+        "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+        "vehicle_id": "IUAAM",
+        "type": "scooter",
+        "propulsion": ["electric"],
+        "year": 2018,
+        "mfgr": "Bird",
+        "model": "",
+        "recorded": 1555039069985
+      },
+      "events": [
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372504081,
+          "event_type": "trip_start",
+          "event_type_reason": null,
+          "telemetry_timestamp": 1555372504081,
+          "trip_id": "4848013c-cae7-46d7-abcd-5b5e834f1497",
+          "recorded": 1555372504277,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "service_area_id": null
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555373005702,
+          "event_type": "trip_end",
+          "event_type_reason": null,
+          "telemetry_timestamp": 1555373005702,
+          "trip_id": "4848013c-cae7-46d7-abcd-5b5e834f1497",
+          "recorded": 1555373005904,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "service_area_id": null
+        }
+      ],
+      "telemetry": [
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372504081,
+          "charge": 1,
+          "recorded": 1555372504291,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0587109,
+            "lng": -118.237604,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372524000,
+          "charge": 0.4,
+          "recorded": 1555372525172,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0587433333333,
+            "lng": -118.237518333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372526000,
+          "charge": 0.4,
+          "recorded": 1555372530168,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0587383333333,
+            "lng": -118.237518333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372528000,
+          "charge": 0.4,
+          "recorded": 1555372530168,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0587383333333,
+            "lng": -118.237518333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372529000,
+          "charge": 0.4,
+          "recorded": 1555372530168,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0587383333333,
+            "lng": -118.237518333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372530000,
+          "charge": 0.4,
+          "recorded": 1555372535142,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.058705,
+            "lng": -118.237556666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372531000,
+          "charge": 0.39,
+          "recorded": 1555372535142,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.058705,
+            "lng": -118.237556666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372534000,
+          "charge": 0.39,
+          "recorded": 1555372540144,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.058705,
+            "lng": -118.237556666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372535000,
+          "charge": 0.39,
+          "recorded": 1555372540144,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.058705,
+            "lng": -118.237556666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372539000,
+          "charge": 0.39,
+          "recorded": 1555372540144,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0585866666667,
+            "lng": -118.237655,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372540000,
+          "charge": 0.39,
+          "recorded": 1555372545202,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.058445,
+            "lng": -118.23777,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372542000,
+          "charge": 0.39,
+          "recorded": 1555372545202,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0584033333333,
+            "lng": -118.237793333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372543000,
+          "charge": 0.39,
+          "recorded": 1555372545202,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0584033333333,
+            "lng": -118.237793333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372544000,
+          "charge": 0.39,
+          "recorded": 1555372545202,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0584033333333,
+            "lng": -118.237793333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372545000,
+          "charge": 0.39,
+          "recorded": 1555372550217,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0583533333333,
+            "lng": -118.237861666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372548000,
+          "charge": 0.39,
+          "recorded": 1555372550217,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0583533333333,
+            "lng": -118.237861666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372549000,
+          "charge": 0.39,
+          "recorded": 1555372550217,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0583533333333,
+            "lng": -118.237861666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372551000,
+          "charge": 0.38,
+          "recorded": 1555372555169,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05835,
+            "lng": -118.237808333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372553000,
+          "charge": 0.38,
+          "recorded": 1555372555169,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0583566666667,
+            "lng": -118.237671666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372554000,
+          "charge": 0.38,
+          "recorded": 1555372555169,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0583566666667,
+            "lng": -118.237671666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372556000,
+          "charge": 0.38,
+          "recorded": 1555372560174,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0583766666667,
+            "lng": -118.23758,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372558000,
+          "charge": 0.38,
+          "recorded": 1555372560174,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0583766666667,
+            "lng": -118.23758,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372559000,
+          "charge": 0.39,
+          "recorded": 1555372565188,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0583766666667,
+            "lng": -118.23758,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372560000,
+          "charge": 0.39,
+          "recorded": 1555372565188,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.058335,
+            "lng": -118.237488333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372563000,
+          "charge": 0.39,
+          "recorded": 1555372565188,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.058335,
+            "lng": -118.237488333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372564000,
+          "charge": 0.39,
+          "recorded": 1555372565188,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0583,
+            "lng": -118.237373333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372567000,
+          "charge": 0.39,
+          "recorded": 1555372570246,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0582766666667,
+            "lng": -118.237296666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372568000,
+          "charge": 0.39,
+          "recorded": 1555372575224,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0582766666667,
+            "lng": -118.237296666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372572000,
+          "charge": 0.39,
+          "recorded": 1555372575224,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0582766666667,
+            "lng": -118.237296666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372573000,
+          "charge": 0.39,
+          "recorded": 1555372575224,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05825,
+            "lng": -118.23722,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372574000,
+          "charge": 0.39,
+          "recorded": 1555372575224,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05825,
+            "lng": -118.23722,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372579000,
+          "charge": 0.39,
+          "recorded": 1555372585109,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0582583333333,
+            "lng": -118.23719,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372582000,
+          "charge": 0.39,
+          "recorded": 1555372585109,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0582466666667,
+            "lng": -118.237198333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372584000,
+          "charge": 0.39,
+          "recorded": 1555372585109,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0582466666667,
+            "lng": -118.237198333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372593000,
+          "charge": 0.39,
+          "recorded": 1555372595320,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0582466666667,
+            "lng": -118.237205,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372598000,
+          "charge": 0.39,
+          "recorded": 1555372600174,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0582466666667,
+            "lng": -118.237205,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372605000,
+          "charge": 0.39,
+          "recorded": 1555372610164,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0582466666667,
+            "lng": -118.237205,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372607000,
+          "charge": 0.39,
+          "recorded": 1555372610164,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0582466666667,
+            "lng": -118.237205,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372608000,
+          "charge": 0.39,
+          "recorded": 1555372610164,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0582433333333,
+            "lng": -118.237205,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372610000,
+          "charge": 0.39,
+          "recorded": 1555372615252,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0582433333333,
+            "lng": -118.237205,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372611000,
+          "charge": 0.39,
+          "recorded": 1555372615252,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0581783333333,
+            "lng": -118.23719,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372612000,
+          "charge": 0.39,
+          "recorded": 1555372615252,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0581783333333,
+            "lng": -118.23719,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372613000,
+          "charge": 0.38,
+          "recorded": 1555372615252,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0581783333333,
+            "lng": -118.23719,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372614000,
+          "charge": 0.38,
+          "recorded": 1555372620367,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0580016666667,
+            "lng": -118.237228333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372615000,
+          "charge": 0.38,
+          "recorded": 1555372620367,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0580016666667,
+            "lng": -118.237228333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372617000,
+          "charge": 0.38,
+          "recorded": 1555372620367,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0580016666667,
+            "lng": -118.237228333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372618000,
+          "charge": 0.38,
+          "recorded": 1555372620367,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0578616666667,
+            "lng": -118.237266666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372620000,
+          "charge": 0.37,
+          "recorded": 1555372625149,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0578616666667,
+            "lng": -118.237266666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372622000,
+          "charge": 0.37,
+          "recorded": 1555372625149,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0576366666667,
+            "lng": -118.237305,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372625000,
+          "charge": 0.37,
+          "recorded": 1555372630173,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.057415,
+            "lng": -118.237365,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372626000,
+          "charge": 0.36,
+          "recorded": 1555372630173,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.057415,
+            "lng": -118.237365,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372628000,
+          "charge": 0.37,
+          "recorded": 1555372630173,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.057415,
+            "lng": -118.237365,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372629000,
+          "charge": 0.37,
+          "recorded": 1555372635148,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0571716666667,
+            "lng": -118.237411666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372630000,
+          "charge": 0.37,
+          "recorded": 1555372635148,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0571716666667,
+            "lng": -118.237411666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372631000,
+          "charge": 0.35,
+          "recorded": 1555372635148,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0571716666667,
+            "lng": -118.237411666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372632000,
+          "charge": 0.36,
+          "recorded": 1555372635148,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0571716666667,
+            "lng": -118.237411666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372634000,
+          "charge": 0.36,
+          "recorded": 1555372640212,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0571716666667,
+            "lng": -118.237411666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372636000,
+          "charge": 0.36,
+          "recorded": 1555372640212,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05701,
+            "lng": -118.23745,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372637000,
+          "charge": 0.37,
+          "recorded": 1555372640212,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05701,
+            "lng": -118.23745,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372638000,
+          "charge": 0.38,
+          "recorded": 1555372640212,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.056835,
+            "lng": -118.237488333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372639000,
+          "charge": 0.38,
+          "recorded": 1555372640212,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.056835,
+            "lng": -118.237488333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372640000,
+          "charge": 0.38,
+          "recorded": 1555372645202,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.056835,
+            "lng": -118.237488333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372650000,
+          "charge": 0.38,
+          "recorded": 1555372655290,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.056785,
+            "lng": -118.237488333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372654000,
+          "charge": 0.38,
+          "recorded": 1555372655290,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0567933333333,
+            "lng": -118.237488333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372657000,
+          "charge": 0.38,
+          "recorded": 1555372660232,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0567783333333,
+            "lng": -118.237495,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372680000,
+          "charge": 0.38,
+          "recorded": 1555372685113,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0567816666667,
+            "lng": -118.237495,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372690000,
+          "charge": 0.38,
+          "recorded": 1555372695135,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0567816666667,
+            "lng": -118.237495,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372691000,
+          "charge": 0.38,
+          "recorded": 1555372695135,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0567816666667,
+            "lng": -118.237495,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372693000,
+          "charge": 0.38,
+          "recorded": 1555372695135,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0567433333333,
+            "lng": -118.23751,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372695000,
+          "charge": 0.38,
+          "recorded": 1555372700162,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0567433333333,
+            "lng": -118.23751,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372696000,
+          "charge": 0.37,
+          "recorded": 1555372700162,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0567433333333,
+            "lng": -118.23751,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372702000,
+          "charge": 0.37,
+          "recorded": 1555372705173,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0564533333333,
+            "lng": -118.237571666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372704000,
+          "charge": 0.37,
+          "recorded": 1555372705173,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0564533333333,
+            "lng": -118.237571666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372705000,
+          "charge": 0.37,
+          "recorded": 1555372710158,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0564533333333,
+            "lng": -118.237571666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372706000,
+          "charge": 0.36,
+          "recorded": 1555372710158,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0562483333333,
+            "lng": -118.237616666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372707000,
+          "charge": 0.37,
+          "recorded": 1555372710158,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0562483333333,
+            "lng": -118.237616666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372708000,
+          "charge": 0.36,
+          "recorded": 1555372710158,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0562483333333,
+            "lng": -118.237616666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372709000,
+          "charge": 0.36,
+          "recorded": 1555372710158,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0560866666667,
+            "lng": -118.237678333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372710000,
+          "charge": 0.36,
+          "recorded": 1555372715172,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0560866666667,
+            "lng": -118.237678333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372711000,
+          "charge": 0.36,
+          "recorded": 1555372715172,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0560866666667,
+            "lng": -118.237678333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372714000,
+          "charge": 0.36,
+          "recorded": 1555372720334,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05576,
+            "lng": -118.237755,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372715000,
+          "charge": 0.37,
+          "recorded": 1555372720334,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05576,
+            "lng": -118.237755,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372716000,
+          "charge": 0.37,
+          "recorded": 1555372720334,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05576,
+            "lng": -118.237755,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372719000,
+          "charge": 0.36,
+          "recorded": 1555372725168,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05576,
+            "lng": -118.237755,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372720000,
+          "charge": 0.37,
+          "recorded": 1555372725168,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05576,
+            "lng": -118.237755,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372721000,
+          "charge": 0.36,
+          "recorded": 1555372725168,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.055615,
+            "lng": -118.23777,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372722000,
+          "charge": 0.37,
+          "recorded": 1555372725168,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.055615,
+            "lng": -118.23777,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372725000,
+          "charge": 0.36,
+          "recorded": 1555372730159,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.055615,
+            "lng": -118.23777,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372726000,
+          "charge": 0.36,
+          "recorded": 1555372730159,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.055615,
+            "lng": -118.23777,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372727000,
+          "charge": 0.36,
+          "recorded": 1555372730159,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05529,
+            "lng": -118.237831666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372728000,
+          "charge": 0.35,
+          "recorded": 1555372730159,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05529,
+            "lng": -118.237831666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372730000,
+          "charge": 0.34,
+          "recorded": 1555372735354,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05529,
+            "lng": -118.237831666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372732000,
+          "charge": 0.34,
+          "recorded": 1555372735354,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05529,
+            "lng": -118.237831666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372733000,
+          "charge": 0.34,
+          "recorded": 1555372735354,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05529,
+            "lng": -118.237831666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372742000,
+          "charge": 0.35,
+          "recorded": 1555372745248,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.055065,
+            "lng": -118.237861666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372743000,
+          "charge": 0.35,
+          "recorded": 1555372745248,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.055065,
+            "lng": -118.237861666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372744000,
+          "charge": 0.35,
+          "recorded": 1555372750188,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05487,
+            "lng": -118.237906666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372745000,
+          "charge": 0.35,
+          "recorded": 1555372750188,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05487,
+            "lng": -118.237906666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372746000,
+          "charge": 0.35,
+          "recorded": 1555372750188,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05487,
+            "lng": -118.237906666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372747000,
+          "charge": 0.34,
+          "recorded": 1555372750188,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05487,
+            "lng": -118.237906666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372748000,
+          "charge": 0.34,
+          "recorded": 1555372750188,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05487,
+            "lng": -118.237906666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372750000,
+          "charge": 0.34,
+          "recorded": 1555372755185,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05399,
+            "lng": -118.23806,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372751000,
+          "charge": 0.34,
+          "recorded": 1555372755185,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05399,
+            "lng": -118.23806,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372754000,
+          "charge": 0.34,
+          "recorded": 1555372755185,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0537983333333,
+            "lng": -118.238075,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372756000,
+          "charge": 0.34,
+          "recorded": 1555372760147,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0537983333333,
+            "lng": -118.238075,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372758000,
+          "charge": 0.33,
+          "recorded": 1555372760147,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0537983333333,
+            "lng": -118.238075,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372759000,
+          "charge": 0.34,
+          "recorded": 1555372760147,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0535466666667,
+            "lng": -118.238098333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372761000,
+          "charge": 0.34,
+          "recorded": 1555372765108,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0535466666667,
+            "lng": -118.238098333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372762000,
+          "charge": 0.34,
+          "recorded": 1555372765108,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0532916666667,
+            "lng": -118.238113333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372764000,
+          "charge": 0.34,
+          "recorded": 1555372770121,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0532916666667,
+            "lng": -118.238113333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372767000,
+          "charge": 0.33,
+          "recorded": 1555372770121,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0532916666667,
+            "lng": -118.238113333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372768000,
+          "charge": 0.33,
+          "recorded": 1555372770121,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0532916666667,
+            "lng": -118.238113333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372770000,
+          "charge": 0.33,
+          "recorded": 1555372775134,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0527566666667,
+            "lng": -118.238175,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372771000,
+          "charge": 0.33,
+          "recorded": 1555372775134,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0527566666667,
+            "lng": -118.238175,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372774000,
+          "charge": 0.33,
+          "recorded": 1555372780171,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0525783333333,
+            "lng": -118.238196666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372776000,
+          "charge": 0.33,
+          "recorded": 1555372780171,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0525783333333,
+            "lng": -118.238196666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372778000,
+          "charge": 0.33,
+          "recorded": 1555372780171,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0523416666667,
+            "lng": -118.23822,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372781000,
+          "charge": 0.33,
+          "recorded": 1555372785141,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0523416666667,
+            "lng": -118.23822,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372782000,
+          "charge": 0.32,
+          "recorded": 1555372785141,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0521016666667,
+            "lng": -118.238228333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372783000,
+          "charge": 0.31,
+          "recorded": 1555372785141,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0521016666667,
+            "lng": -118.238228333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372785000,
+          "charge": 0.31,
+          "recorded": 1555372790146,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0519333333333,
+            "lng": -118.23825,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372786000,
+          "charge": 0.32,
+          "recorded": 1555372790146,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0519333333333,
+            "lng": -118.23825,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372787000,
+          "charge": 0.32,
+          "recorded": 1555372790146,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0519333333333,
+            "lng": -118.23825,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372789000,
+          "charge": 0.32,
+          "recorded": 1555372790146,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.051705,
+            "lng": -118.238235,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372792000,
+          "charge": 0.32,
+          "recorded": 1555372795253,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.051705,
+            "lng": -118.238235,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372793000,
+          "charge": 0.33,
+          "recorded": 1555372795253,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.051705,
+            "lng": -118.238235,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372795000,
+          "charge": 0.33,
+          "recorded": 1555372800181,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0514866666667,
+            "lng": -118.238228333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372797000,
+          "charge": 0.33,
+          "recorded": 1555372800181,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0514866666667,
+            "lng": -118.238228333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372799000,
+          "charge": 0.33,
+          "recorded": 1555372800181,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0514866666667,
+            "lng": -118.238228333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372800000,
+          "charge": 0.33,
+          "recorded": 1555372805169,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0514633333333,
+            "lng": -118.238358333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372801000,
+          "charge": 0.32,
+          "recorded": 1555372805169,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0514633333333,
+            "lng": -118.238358333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372802000,
+          "charge": 0.32,
+          "recorded": 1555372805169,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0515483333333,
+            "lng": -118.238533333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372805000,
+          "charge": 0.32,
+          "recorded": 1555372810166,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0516966666667,
+            "lng": -118.238678333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372807000,
+          "charge": 0.32,
+          "recorded": 1555372810166,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0516966666667,
+            "lng": -118.238678333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372809000,
+          "charge": 0.31,
+          "recorded": 1555372810166,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05186,
+            "lng": -118.238853333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372810000,
+          "charge": 0.31,
+          "recorded": 1555372815170,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05186,
+            "lng": -118.238853333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372812000,
+          "charge": 0.32,
+          "recorded": 1555372815170,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05186,
+            "lng": -118.238853333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372813000,
+          "charge": 0.32,
+          "recorded": 1555372815170,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0519516666667,
+            "lng": -118.23899,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372815000,
+          "charge": 0.32,
+          "recorded": 1555372820178,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0519516666667,
+            "lng": -118.23899,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372816000,
+          "charge": 0.32,
+          "recorded": 1555372820178,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0520283333333,
+            "lng": -118.239045,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372817000,
+          "charge": 0.32,
+          "recorded": 1555372820178,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0520283333333,
+            "lng": -118.239045,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372819000,
+          "charge": 0.31,
+          "recorded": 1555372820178,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0520283333333,
+            "lng": -118.239045,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372820000,
+          "charge": 0.31,
+          "recorded": 1555372825265,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0521083333333,
+            "lng": -118.239135,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372822000,
+          "charge": 0.31,
+          "recorded": 1555372825265,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0521083333333,
+            "lng": -118.239135,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372824000,
+          "charge": 0.31,
+          "recorded": 1555372825265,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05222,
+            "lng": -118.239273333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372826000,
+          "charge": 0.31,
+          "recorded": 1555372830183,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05222,
+            "lng": -118.239273333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372828000,
+          "charge": 0.31,
+          "recorded": 1555372830183,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05222,
+            "lng": -118.239273333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372829000,
+          "charge": 0.31,
+          "recorded": 1555372835193,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0523183333333,
+            "lng": -118.239395,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372830000,
+          "charge": 0.32,
+          "recorded": 1555372835193,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0523183333333,
+            "lng": -118.239395,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372832000,
+          "charge": 0.32,
+          "recorded": 1555372835193,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0523183333333,
+            "lng": -118.239395,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372835000,
+          "charge": 0.31,
+          "recorded": 1555372840223,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05251,
+            "lng": -118.239593333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372836000,
+          "charge": 0.31,
+          "recorded": 1555372840223,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05251,
+            "lng": -118.239593333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372837000,
+          "charge": 0.31,
+          "recorded": 1555372840223,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05251,
+            "lng": -118.239593333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372838000,
+          "charge": 0.31,
+          "recorded": 1555372840223,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.052655,
+            "lng": -118.239768333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372839000,
+          "charge": 0.3,
+          "recorded": 1555372840223,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.052655,
+            "lng": -118.239768333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372840000,
+          "charge": 0.3,
+          "recorded": 1555372845272,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.052655,
+            "lng": -118.239768333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372843000,
+          "charge": 0.3,
+          "recorded": 1555372845272,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.052655,
+            "lng": -118.239768333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372844000,
+          "charge": 0.31,
+          "recorded": 1555372845272,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0527566666667,
+            "lng": -118.239883333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372845000,
+          "charge": 0.31,
+          "recorded": 1555372850228,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0527566666667,
+            "lng": -118.239883333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372846000,
+          "charge": 0.31,
+          "recorded": 1555372850228,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0527566666667,
+            "lng": -118.239883333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372847000,
+          "charge": 0.31,
+          "recorded": 1555372850228,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0527566666667,
+            "lng": -118.239883333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372848000,
+          "charge": 0.3,
+          "recorded": 1555372850228,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0529016666667,
+            "lng": -118.240051666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372849000,
+          "charge": 0.31,
+          "recorded": 1555372850228,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0529016666667,
+            "lng": -118.240051666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372851000,
+          "charge": 0.31,
+          "recorded": 1555372855481,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0529016666667,
+            "lng": -118.240051666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372852000,
+          "charge": 0.3,
+          "recorded": 1555372855481,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0529983333333,
+            "lng": -118.240173333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372855000,
+          "charge": 0.31,
+          "recorded": 1555372860413,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.053085,
+            "lng": -118.24025,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372857000,
+          "charge": 0.31,
+          "recorded": 1555372860413,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.053085,
+            "lng": -118.24025,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372858000,
+          "charge": 0.31,
+          "recorded": 1555372860413,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0531616666667,
+            "lng": -118.240303333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372859000,
+          "charge": 0.3,
+          "recorded": 1555372860413,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0531616666667,
+            "lng": -118.240303333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372861000,
+          "charge": 0.3,
+          "recorded": 1555372865183,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0531616666667,
+            "lng": -118.240303333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372862000,
+          "charge": 0.3,
+          "recorded": 1555372865183,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0532183333333,
+            "lng": -118.240386666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372866000,
+          "charge": 0.3,
+          "recorded": 1555372870242,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0532766666667,
+            "lng": -118.240463333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372867000,
+          "charge": 0.3,
+          "recorded": 1555372870242,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0532766666667,
+            "lng": -118.240463333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372868000,
+          "charge": 0.31,
+          "recorded": 1555372870242,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0532766666667,
+            "lng": -118.240463333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372869000,
+          "charge": 0.31,
+          "recorded": 1555372875155,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05333,
+            "lng": -118.240508333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372870000,
+          "charge": 0.3,
+          "recorded": 1555372875155,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05333,
+            "lng": -118.240508333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372871000,
+          "charge": 0.3,
+          "recorded": 1555372875155,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05333,
+            "lng": -118.240508333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372872000,
+          "charge": 0.3,
+          "recorded": 1555372875155,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05333,
+            "lng": -118.240508333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372873000,
+          "charge": 0.3,
+          "recorded": 1555372875155,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.053395,
+            "lng": -118.240486666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372875000,
+          "charge": 0.31,
+          "recorded": 1555372880159,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.053395,
+            "lng": -118.240486666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372876000,
+          "charge": 0.31,
+          "recorded": 1555372880159,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.053395,
+            "lng": -118.240486666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372877000,
+          "charge": 0.31,
+          "recorded": 1555372880159,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0534516666667,
+            "lng": -118.240561666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372881000,
+          "charge": 0.31,
+          "recorded": 1555372885158,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0534516666667,
+            "lng": -118.240561666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372882000,
+          "charge": 0.31,
+          "recorded": 1555372885158,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05346,
+            "lng": -118.240653333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372883000,
+          "charge": 0.31,
+          "recorded": 1555372890145,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05346,
+            "lng": -118.240653333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372886000,
+          "charge": 0.31,
+          "recorded": 1555372890145,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0534633333333,
+            "lng": -118.2407,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372887000,
+          "charge": 0.31,
+          "recorded": 1555372890145,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0534633333333,
+            "lng": -118.2407,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372892000,
+          "charge": 0.31,
+          "recorded": 1555372895151,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05344,
+            "lng": -118.2407,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372893000,
+          "charge": 0.31,
+          "recorded": 1555372895151,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0534366666667,
+            "lng": -118.240706666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372896000,
+          "charge": 0.31,
+          "recorded": 1555372900159,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05341,
+            "lng": -118.240738333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372897000,
+          "charge": 0.31,
+          "recorded": 1555372900159,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05341,
+            "lng": -118.240738333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372898000,
+          "charge": 0.3,
+          "recorded": 1555372900159,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05341,
+            "lng": -118.240738333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372900000,
+          "charge": 0.3,
+          "recorded": 1555372905163,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.053315,
+            "lng": -118.240845,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372901000,
+          "charge": 0.31,
+          "recorded": 1555372905163,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.053315,
+            "lng": -118.240845,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372902000,
+          "charge": 0.31,
+          "recorded": 1555372905163,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.053315,
+            "lng": -118.240845,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372903000,
+          "charge": 0.3,
+          "recorded": 1555372905163,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.053315,
+            "lng": -118.240845,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372904000,
+          "charge": 0.3,
+          "recorded": 1555372905163,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0532333333333,
+            "lng": -118.240898333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372907000,
+          "charge": 0.31,
+          "recorded": 1555372910194,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0532333333333,
+            "lng": -118.240898333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372922000,
+          "charge": 0.31,
+          "recorded": 1555372925254,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0532,
+            "lng": -118.240928333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372923000,
+          "charge": 0.31,
+          "recorded": 1555372925254,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0532233333333,
+            "lng": -118.240943333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372926000,
+          "charge": 0.31,
+          "recorded": 1555372930193,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05323,
+            "lng": -118.240943333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372927000,
+          "charge": 0.31,
+          "recorded": 1555372930193,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05323,
+            "lng": -118.240943333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372934000,
+          "charge": 0.31,
+          "recorded": 1555372935206,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0532383333333,
+            "lng": -118.240936666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372935000,
+          "charge": 0.31,
+          "recorded": 1555372940211,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0532383333333,
+            "lng": -118.240936666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372937000,
+          "charge": 0.31,
+          "recorded": 1555372940211,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.053265,
+            "lng": -118.240951666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372939000,
+          "charge": 0.31,
+          "recorded": 1555372940211,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.053265,
+            "lng": -118.240951666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372940000,
+          "charge": 0.31,
+          "recorded": 1555372945187,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.053265,
+            "lng": -118.240951666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372942000,
+          "charge": 0.31,
+          "recorded": 1555372945187,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.053345,
+            "lng": -118.241035,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372943000,
+          "charge": 0.3,
+          "recorded": 1555372945187,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.053345,
+            "lng": -118.241035,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372944000,
+          "charge": 0.3,
+          "recorded": 1555372945187,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.053345,
+            "lng": -118.241035,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372945000,
+          "charge": 0.3,
+          "recorded": 1555372950213,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.053345,
+            "lng": -118.241035,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372950000,
+          "charge": 0.3,
+          "recorded": 1555372955173,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0530616666667,
+            "lng": -118.241378333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372952000,
+          "charge": 0.3,
+          "recorded": 1555372955173,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0530616666667,
+            "lng": -118.241378333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372953000,
+          "charge": 0.29,
+          "recorded": 1555372955173,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0528683333333,
+            "lng": -118.241516666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372955000,
+          "charge": 0.29,
+          "recorded": 1555372960427,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0528683333333,
+            "lng": -118.241516666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372957000,
+          "charge": 0.28,
+          "recorded": 1555372960427,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0528683333333,
+            "lng": -118.241516666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372958000,
+          "charge": 0.29,
+          "recorded": 1555372960427,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05267,
+            "lng": -118.241683333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372960000,
+          "charge": 0.28,
+          "recorded": 1555372965198,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.05267,
+            "lng": -118.241683333333,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372961000,
+          "charge": 0.28,
+          "recorded": 1555372965198,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0524066666667,
+            "lng": -118.241875,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372962000,
+          "charge": 0.28,
+          "recorded": 1555372965198,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0524066666667,
+            "lng": -118.241875,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372964000,
+          "charge": 0.28,
+          "recorded": 1555372965198,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0524066666667,
+            "lng": -118.241875,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372965000,
+          "charge": 0.27,
+          "recorded": 1555372970126,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0524066666667,
+            "lng": -118.241875,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372966000,
+          "charge": 0.28,
+          "recorded": 1555372970126,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0522533333333,
+            "lng": -118.241996666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372967000,
+          "charge": 0.27,
+          "recorded": 1555372970126,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0522533333333,
+            "lng": -118.241996666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372969000,
+          "charge": 0.27,
+          "recorded": 1555372970126,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0520666666667,
+            "lng": -118.242126666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372970000,
+          "charge": 0.28,
+          "recorded": 1555372975141,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0520666666667,
+            "lng": -118.242126666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372973000,
+          "charge": 0.28,
+          "recorded": 1555372975141,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0519333333333,
+            "lng": -118.242256666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372974000,
+          "charge": 0.29,
+          "recorded": 1555372975141,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0519333333333,
+            "lng": -118.242256666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372975000,
+          "charge": 0.29,
+          "recorded": 1555372980152,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0519333333333,
+            "lng": -118.242256666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372976000,
+          "charge": 0.28,
+          "recorded": 1555372980152,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0519333333333,
+            "lng": -118.242256666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372979000,
+          "charge": 0.28,
+          "recorded": 1555372980152,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0518233333333,
+            "lng": -118.24234,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372980000,
+          "charge": 0.28,
+          "recorded": 1555372985123,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0517533333333,
+            "lng": -118.242386666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372981000,
+          "charge": 0.29,
+          "recorded": 1555372985123,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0517533333333,
+            "lng": -118.242386666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372982000,
+          "charge": 0.28,
+          "recorded": 1555372990192,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0517533333333,
+            "lng": -118.242386666667,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372985000,
+          "charge": 0.28,
+          "recorded": 1555372990192,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0517233333333,
+            "lng": -118.2425,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372986000,
+          "charge": 0.28,
+          "recorded": 1555372990192,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0517233333333,
+            "lng": -118.2425,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372988000,
+          "charge": 0.29,
+          "recorded": 1555372990192,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0517383333333,
+            "lng": -118.24253,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555372990000,
+          "charge": 0.29,
+          "recorded": 1555372995143,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0517383333333,
+            "lng": -118.24253,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        },
+        {
+          "device_id": "464d8cf0-962b-4f89-9c47-ec349fc40945",
+          "timestamp": 1555373005702,
+          "charge": 1,
+          "recorded": 1555373005910,
+          "provider_id": "2411d395-04f2-47c9-ab66-d09e9e3c3251",
+          "gps": {
+            "lat": 34.0524066666667,
+            "lng": -118.241875,
+            "speed": null,
+            "heading": null,
+            "accuracy": null,
+            "altitude": null
+          }
+        }
+      ]
+    }
+  }
+}

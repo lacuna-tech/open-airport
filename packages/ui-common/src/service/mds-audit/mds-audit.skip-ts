@@ -1,0 +1,127 @@
+/**
+ * `mds-audit` service endpoints
+ */
+import { Audit, AuditEvent, Device, Provider, Telemetry, Timestamp, UUID, VehicleEvent } from "mds-js"
+import { mdsFetch, ResponseType } from "../util/request_utils"
+
+// boilerplate, will come from config
+const config = {
+  auditUrl: "https://path.to/server"
+}
+
+/**
+ * Load list of audit trip summaries
+ */
+export interface AuditTripsQuery {  
+  // TODO: move into mds-js???
+  skip?: number,
+  take?: number,
+  provider_id?: UUID,
+  provider_vehicle_id?: UUID,
+  audit_subject_id?: UUID,
+  audit_start?: Timestamp,
+  audit_end?: Timestamp
+}
+export interface AuditTripsResponse { 
+  // TODO: move into mds-js???
+  count: number;
+  audits: Audit[];
+}
+export function fetchAuditTrips(query: AuditTripsQuery, authToken: string): Promise<AuditTripsResponse> {
+  return mdsFetch({
+    url: `${config.auditUrl}/trips`,
+    query,
+    authToken,
+    errorResponseType: ResponseType.json
+  })
+}
+
+
+/**
+ * Load details of single audit trip
+ */
+export interface AuditDetails extends Audit { 
+  // TODO: move into mds-js???
+  events: AuditEvent[]
+  provider: {
+    device: Device
+    events: VehicleEvent[]
+    telemetry: Telemetry[]
+  } | null
+}
+export function fetchAuditDetails(auditTripId: UUID, authToken: string): Promise<AuditDetails> {
+  return mdsFetch({
+    url: `${config.auditUrl}/trips/${auditTripId}`,
+    authToken,
+    errorResponseType: ResponseType.json  // TODO???
+  })
+}
+
+
+/**
+ * Delete a single audit trip report
+ */
+export function deleteAuditTrip(auditTripId: UUID, authToken: string): Promise<{}> {
+  return mdsFetch({
+    method: "DELETE",
+    url: `${config.auditUrl}/trips/${auditTripId}`,
+    authToken,
+    responseType: ResponseType.text,
+    errorResponseType: ResponseType.text  // TODO???
+  })
+}
+
+
+/**
+ * Send an audit_event to the server
+ */
+interface AuditEventInput {
+  // TODO: move into mds-js
+  audit_device_id: UUID;
+  audit_event_id: UUID;
+  audit_event_type: string;
+  provider_id: UUID;
+  provider_vehicle_id: string;
+  telemetry?: Telemetry;
+  timestamp: Timestamp;
+}
+type AddAuditEventReply = Provider & { provider_device: Device | null }
+export function postAuditEvent(eventType: string, auditTripId: UUID, data: AuditEventInput, authToken: string): Promise<AddAuditEventReply>  {
+  return mdsFetch({
+    method: "POST",
+    url: `${config.auditUrl}/trips/${auditTripId}/${eventType}`,
+    data,
+    responseType: ResponseType.json,
+    errorResponseType: ResponseType.text  // TODO???
+  })
+}
+
+/**
+ * Send a vehicle_event to the server, associated with an audit trip
+ */
+type AuditVehicleEventInput = VehicleEvent & { audit_event_id: UUID, recorded: Timestamp | null }
+export function postVehicleEvent(eventType: string, auditTripId: UUID, data: AuditVehicleEventInput, authToken: string): Promise<{}> {
+  return mdsFetch({
+    url: `${config.auditUrl}/trips/${auditTripId}/vehile/${eventType}`,
+    data,
+    responseType: ResponseType.json,
+    errorResponseType: ResponseType.text  // TODO???
+  })
+}
+
+/**
+ * Send a telemetry event to the server, associated with an audit trip
+ */
+interface AuditTelemetryEventInput {
+  audit_event_id: UUID;
+  telemetry: Telemetry;
+  timestamp: Timestamp
+}
+export function postTelemetryEvent(auditTripId: UUID, data: AuditTelemetryEventInput, authToken: string): Promise<{}> {
+  return mdsFetch({
+    url: `${config.auditUrl}/trips/${auditTripId}/vehicle/telemetry`,
+    data,
+    responseType: ResponseType.json,
+    errorResponseType: ResponseType.text  // TODO???
+  })
+}

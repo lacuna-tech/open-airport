@@ -1,0 +1,42 @@
+{
+  "name": "open-airport",
+  "version": "0.2.1",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "agency": "bash ../agency-config/scripts/linkAgency.sh",
+    "build:deps": "pnpm --cwd ../.. build:deps",
+    "build": "craco build",
+    "_start": "PORT=3008 craco start",
+    "start": "env-cmd -f .env.development pnpm _start",
+    "storybook": "start-storybook -p 3006 -s public",
+    "test": "jest --env=jsdom --passWithNoTests",
+    "lint": "eslint --ignore-path ../../.gitignore --max-warnings=0 '**/*.{ts,tsx}'",
+    "deploy:staging": "env-cmd -f .env env-cmd -f .env.staging pnpm run _deploy",
+    "deploy:production": "env-cmd -f .env env-cmd -f .env.production pnpm run _deploy",
+    "deploy:development": "env-cmd -f .env env-cmd -f .env.development pnpm run _deploy",
+    "deploy:sandbox": "env-cmd -f .env env-cmd -f .env.sandbox pnpm run _deploy",
+    "_deploy": "pnpm run _build && bash scripts/s3deploy.sh",
+    "_build": "craco --max-old-space-size=4096 build"
+  },
+  "dependencies": {
+    "@lacuna/agency-config": "*",
+    "@lacuna/ui-common": "*",
+    "react-map-gl": "5.2.9"
+  },
+  "devDependencies": {
+    "@types/react-map-gl": "5.2.9"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

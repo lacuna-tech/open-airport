@@ -1,0 +1,33 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Node.js: Express Server",
+      "runtimeArgs": ["-r", "ts-node/register"],
+      "args": ["${fileBasename}"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "protocol": "inspector",
+      "cwd": "${fileDirname}",
+      "env": {
+        "npm_package_name": "${relativeFile}"
+      }
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Node.js: Mocha Tests",
+      "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+      "args": ["-r", "ts-node/register", "--timeout", "999999", "--colors", "--recursive", "'**/*.{ts,js}'"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "protocol": "inspector",
+      "cwd": "${fileDirname}"
+    }
+  ]
+}

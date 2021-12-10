@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.settings.json",
+  "references": [],
+  "compilerOptions": {
+    "allowJs": false,
+    "baseUrl": ".",
+    "jsx": "react",
+    "lib": ["es5", "es6", "es7", "es2017", "dom"],
+    "outDir": "dist",
+    "rootDir": "src",
+    "target": "es5",
+    "skipLibCheck": true,
+    "composite": true,
+    "declaration": true,
+    "declarationDir": "dist",
+    "moduleResolution": "node",
+    "importHelpers": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "src/**/*.test.tsx", "src/**/*.test.ts"]
+}

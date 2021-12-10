@@ -1,0 +1,56 @@
+{
+  "name": "@lacuna/ui-common",
+  "version": "0.3.0",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "agency": "bash ../agency-config/scripts/linkAgency.sh",
+    "start": "start-storybook -p 6006",
+    "build": "tsc && pnpm run copy-css-to-lib && pnpm run copy-svg-to-lib && pnpm run copy-png-to-lib && pnpm run copy-woff2-to-lib",
+    "build:watch": "tsc -w",
+    "build:storybook": "build-storybook -o dist-book",
+    "clean": "rm -rf dist tsconfig.tsbuildinfo",
+    "test": "TZ=UTC jest",
+    "lint": "eslint --ignore-path ../../.gitignore --max-warnings=0 '**/*.{ts,tsx}'",
+    "copy-css-to-lib": "cpx \"./src/**/*.css\" ./dist",
+    "copy-woff2-to-lib": "cpx \"./src/**/*.woff2\" ./dist",
+    "copy-svg-to-lib": "cpx \"./src/**/*.svg\" ./dist",
+    "copy-png-to-lib": "cpx \"./src/**/*.png\" ./dist"
+  },
+  "dependencies": {
+    "@lacuna-core/mds-event-api": "0.1.1-lacuna-tech.830",
+    "@lacuna/agency-config": "0.2.0",
+    "@mds-core/mds-types": "0.1.26-lacuna-tech.62",
+    "@turf/circle": "6.5.0",
+    "@types/jwt-decode": "3.1.0",
+    "file-saver": "2.0.5",
+    "formik": "2.2.9",
+    "graphql-deduplicator": "^2.0.6",
+    "immer": "9.0.6",
+    "jwt-decode": "3.1.2",
+    "pkce-challenge": "2.1.0",
+    "react-virtualized-auto-sizer": "1.0.6",
+    "react-window": "1.8.6",
+    "storybook-dark-mode": "1.0.8"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/graphql-deduplicator": "^2.0.0",
+    "@types/react-window": "1.8.5",
+    "cpx": "1.5.0",
+    "jest-fetch-mock": "3.0.3",
+    "mock-apollo-client": "1.2.0",
+    "react-docgen-typescript-loader": "3.7.2",
+    "react-docgen-typescript-webpack-plugin": "1.1.0",
+    "react-dom": "17.0.1"
+  }
+}

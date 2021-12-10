@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["types/*", "*"]
+    },
+    "target": "es2018",
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "preserveSymlinks": false,
+    "listEmittedFiles": true,
+    "sourceMap": true,
+    "declaration": true,
+    "composite": true,
+    "forceConsistentCasingInFileNames": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "downlevelIteration": true // Support for iterating by spreading any generator function results.
+  }
+}

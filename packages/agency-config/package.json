@@ -1,0 +1,25 @@
+{
+  "name": "@lacuna/agency-config",
+  "version": "0.2.0",
+  "author": "Lacuna Technologies",
+  "license": "UNLICENSED",
+  "main": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "module": "src/index.ts",
+  "dependencies": {
+    "promise.allsettled": "1.0.2"
+  },
+  "scripts": {
+    "build": "pnpm clean; tsc",
+    "build:watch": "pnpm clean; tsc -w",
+    "clean": "rm -rf dist tsconfig.tsbuildinfo",
+    "test": "jest --env=jsdom --passWithNoTests",
+    "lint": "eslint --ignore-path ../../.gitignore --max-warnings=0 '**/*.{ts,tsx}'"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

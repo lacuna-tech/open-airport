@@ -1,0 +1,38 @@
+import React, { useEffect } from 'react'
+import { useDispatch } from 'react-redux'
+import { UUID } from 'mds-js'
+import { LoadState } from '../../util/store_utils'
+import { actions, selectors } from '../../store/auditDetails'
+
+interface Props {
+  auditTripId: UUID
+}
+export default function AuditDetailsDisplay({ auditTripId }: Props) {
+  // Load the trip details whenever `auditTripId` changes.
+  // If already loaded, returns the cached value.
+  const dispatch = useDispatch()
+  useEffect(() => {
+    dispatch(actions.loadAuditDetails(auditTripId))
+  }, [auditTripId])
+
+  const details = selectors.useAuditDetail(auditTripId)
+  if (details === undefined || details === LoadState.loading) {
+    return <h3>Loading {auditTripId}</h3>
+  }
+
+  if (details instanceof Error) {
+    return (
+      <div>
+        <h3>Error loading {auditTripId}</h3>
+        {details.message}
+      </div>
+    )
+  }
+
+  return (
+    <>
+      <h3>Details for {auditTripId}</h3>
+      <pre>{JSON.stringify(details, null, '  ')}</pre>
+    </>
+  )
+}

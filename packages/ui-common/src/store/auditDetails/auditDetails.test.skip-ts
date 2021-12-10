@@ -1,0 +1,129 @@
+/**
+ * Tests for `auditDetails` service.
+ */
+import { mdsFetchConfig, MissingResourceError, OfflineError } from '../util/request_utils'
+import { LoadState } from '../util/store_utils'
+import { createMockStore } from '../util/jest/store'
+import { actions, reducerMap } from './auditDetails'
+
+// Mock `fetch`
+import fetch from '../util/jest/fetch'
+
+// import sample auditDetails fixture
+const sampleAudit = require('../service/mds-audit-fixtures/auditDetails/bird_iuaam.json')
+// id for auditDetails fixture
+const sampleAuditId = Object.keys(sampleAudit)[0]
+
+// Turn off error console logging
+mdsFetchConfig.logErrors = false
+
+// Mock `auditDetails` domain of the store
+const mockStore = createMockStore(reducerMap)
+
+describe('auditDetails actions', () => {
+  describe('loadAuditDetails()', () => {
+    describe('on successful load when not in cache', () => {
+      const store = mockStore({ auditDetails: {} })
+      test('proper value is returned', async () => {
+        expect.hasAssertions()
+        fetch.once(JSON.stringify(sampleAudit))
+        const result = await store.dispatch(actions.loadAuditDetails(sampleAuditId))
+        expect(result).toEqual(sampleAudit)
+      })
+      test('actions are sent properly', () => {
+        expect(store.getActions()).toEqual([
+          { type: 'updateAuditDetails', payload: { [sampleAuditId]: LoadState.loading } },
+          { type: 'updateAuditDetails', payload: { [sampleAuditId]: sampleAudit } }
+        ])
+      })
+      test('store updates properly', () => {
+        expect(store.applyActions()).toEqual({ auditDetails: { [sampleAuditId]: sampleAudit } })
+      })
+    })
+
+    describe('when details present in cache', () => {
+      const store = mockStore({ auditDetails: { [sampleAuditId]: sampleAudit } })
+      test('proper value is returned', async () => {
+        expect.hasAssertions()
+        const result = await store.dispatch(actions.loadAuditDetails(sampleAuditId))
+        expect(result).toEqual(sampleAudit)
+      })
+      test('no actions are sent', async () => {
+        expect(store.getActions()).toEqual([])
+      })
+    })
+
+    describe('while loading', () => {
+      const store = mockStore({ auditDetails: { [sampleAuditId]: LoadState.loading } })
+      test('proper value is returned', async () => {
+        expect.hasAssertions()
+        const result = await store.dispatch(actions.loadAuditDetails(sampleAuditId))
+        expect(result).toEqual(LoadState.loading)
+      })
+      test('no actions are sent', async () => {
+        expect(store.getActions()).toEqual([])
+      })
+    })
+
+    describe('when error in cache', () => {
+      const error = new OfflineError({ message: 'Nope', url: 'http:...' })
+      const store = mockStore({ auditDetails: { [sampleAuditId]: error } })
+      test('proper value is returned', async () => {
+        expect.hasAssertions()
+        const result = await store.dispatch(actions.loadAuditDetails(sampleAuditId))
+        expect(result).toEqual(error)
+      })
+      test('no actions are sent', async () => {
+        expect(store.getActions()).toEqual([])
+      })
+    })
+
+    describe('on unsuccessful load', () => {
+      const store = mockStore({ auditDetails: {} })
+      test('MissingResourceError is thrown', async () => {
+        expect.hasAssertions()
+        fetch.once('{}', { status: 404 })
+        try {
+          await store.dispatch(actions.loadAuditDetails(sampleAuditId))
+        } catch (error) {
+          expect(error).toBeInstanceOf(MissingResourceError)
+        }
+      })
+      test('actions are sent properly', () => {
+        expect(store.getActions()).toEqual([
+          { type: 'updateAuditDetails', payload: { [sampleAuditId]: LoadState.loading } },
+          { type: 'updateAuditDetails', payload: { [sampleAuditId]: error } }
+        ])
+      })
+      test('store updates properly', () => {
+        expect(store.applyActions()).toEqual({ auditDetails: { [sampleAuditId]: error } })
+      })
+    })
+  })
+
+  describe('deleteAudit()', () => {
+    describe('when details record present in cache', () => {
+      const store = mockStore({ auditDetails: { [sampleAuditId]: sampleAudit } })
+      test('actions are sent properly', async () => {
+        fetch.once('{}')
+        await store.dispatch(actions.deleteAudit(sampleAuditId))
+        expect(store.getActions()).toEqual([{ type: 'deleteAudit', payload: sampleAuditId }])
+      })
+      test('store updates properly', () => {
+        expect(store.applyActions()).toEqual({ auditDetails: {} })
+      })
+    })
+
+    describe('when details record NOT present in cache', () => {
+      const store = mockStore({ auditDetails: {} })
+      test('actions are sent properly', async () => {
+        fetch.once('{}')
+        await store.dispatch(actions.deleteAudit(sampleAuditId))
+        expect(store.getActions()).toEqual([{ type: 'deleteAudit', payload: sampleAuditId }])
+      })
+      test('store updates properly', () => {
+        expect(store.applyActions()).toEqual({ auditDetails: {} })
+      })
+    })
+  })
+})
