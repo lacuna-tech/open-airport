@@ -22,6 +22,7 @@
   "dependencies": {
     "@lacuna/agency-config": "*",
     "@lacuna/ui-common": "*",
+    "file-saver": "2.0.5",
     "react-map-gl": "5.2.9"
   },
   "devDependencies": {
